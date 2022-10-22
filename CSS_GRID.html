@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .heading{
+            border-color:bisque;
+            background-color: bisque;
+           
+        }
+
+        .q{
+            font-weight: bold;
+            font-size: larger;
+            text-align: center;
+            border-radius: 100px;
+        }
+
+        .blue{
+               text-align:center;
+               background-color:lightblue;
+                height:200px; 
+                border-radius: 75px;
+        }
+
+        .pink{ text-align:center;
+            background-color:lightpink;
+             height: 200px; 
+             border-radius: 75px;
+
+        }
+        body{
+            background-image:url("plain2.jpg");
+            background-repeat: no-repeat;
+          background-size: auto;
+    
+        }
+        h2{
+            color:brown;
+            
+        }
+    </style>
+    <title>Grid Practice</title>
+</head>
+<body>
+    <div style="display:inline-block;width:400px;margin-right:5px;">
+    <h1 class="heading" style="text-align:center; border-radius:500px;">SQA HOMEWORK</h1></div>
+    <div style="color:red ;margin-left:5px;display:inline-block;width:550px;text-align:right;">
+        <p><strong>Due Date:10/18/2022</strong></p></div>
+   
+ 
+    <div style="
+          margin-top:30px;
+          column-gap:30px;
+          row-gap:20px;
+          display: grid; 
+          grid-template-columns:1fr 1fr 1fr;
+          ">
+        <div  class="blue">
+            <h2> Team 1</h2>
+            <p class="q">Difference between Waterfall and Agile</p>
+        </div>
+
+        <div class="pink">
+          <h2>Team 2</h2>
+             <p class="q">Describe Agile Manifesto. What is Sprint in Scrum framework?</p>
+        </div>
+        
+        <div class="blue">
+            <h2> Team 3</h2>
+            <p class="q"> What are the roles in Scrum? What is product backlog / sprint backlog and story in Agile?</p>
+        </div>
+
+        <div class="blue">
+            <h2 >Team 4</h2>
+            <p class="q"> Agile (Scrum) meetings</p>
+        </div>
+
+        <div class="pink">
+             <h2>Team 5 </h2><p class="q">Testers role in Agile (Scrum)</p>
+        </div>
+        
+    </div>
+         
+</body>
+</html>
